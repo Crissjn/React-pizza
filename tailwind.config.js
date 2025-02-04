@@ -2,6 +2,9 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: "Roboto Mono, monospace",
+    },
     extend: {
       fontSize: {
         huge: ["8rem", { lineHeight: "1" }],
@@ -9,9 +12,6 @@ export default {
       height: {
         screen: "100dvh",
       },
-    },
-    fontFamily: {
-      pizza: "Roboto Mono, monospace",
     },
   },
   plugins: [],
