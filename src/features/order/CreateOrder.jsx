@@ -128,7 +128,7 @@ function CreateOrder() {
           <Button disabled={isSubmitting || isLoadingAddress} type="primary">
             {isSubmitting
               ? "Placing order"
-              : `Order not for ${formatCurrency(totalPrice)}`}
+              : `Order now for ${formatCurrency(totalPrice)}`}
           </Button>
         </div>
       </Form>
